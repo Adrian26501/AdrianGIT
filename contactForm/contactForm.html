@@ -8,10 +8,13 @@
         <div class = "container">
             <form action="/form/submit" method="post">
                 <label for="fullname">Name and surname</label>
-                <input type="text" id="fullname" placeholder="Name"
+                <input type="text" id="fullname" name="fullname" placeholder="Name"
 
                 <label for="eaddress">E-mail address</label>
                 <input type="text" id="eaddress" name="emailaddress" placeholder="E-mail address"
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
             </form>
     </body>
 </html>
