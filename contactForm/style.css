@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    background: rgb(124,116,255);
-    background: linear-gradient(90deg, rgba(124,116,255,1) 0%, rgba(173,173,247,1) 16%, rgba(123,218,237,1) 61%);
+    background: rgb(61,193,227);
+    background: linear-gradient(90deg, rgba(61,193,227,1) 12%, rgba(158,158,237,1) 56%, rgba(179,111,231,1) 91%);
   }
   
   input[type=text], select, textarea {
