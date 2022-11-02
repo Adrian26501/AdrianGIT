@@ -1,23 +1,25 @@
-body {
-    padding: 50px;
-    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+* {
+    box-sizing: border-box;
   }
   
-  .grid {
-    border: 5px solid rgb(111,41,97);
-    display: grid;
-    grid-template-columns: repeat(5, 100px);
-    grid-template-rows: repeat(5, 50px);
-    inline-size: 500px;
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
   }
   
-  .container {
-    grid-column: 2 / 4;
-    grid-row: 1 / 4;
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
   }
   
-  .grid > * {
-    background-color: rgba(111,41,97,.4);
-    border-radius: 5px;
-    padding: 10px;
+  input[type=submit]:hover {
+    background-color: #45a049;
   }
