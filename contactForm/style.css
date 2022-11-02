@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  background-image: linear-gradient(180deg, red, yellow);
   
   input[type=text], select, textarea {
     width: 100%;
