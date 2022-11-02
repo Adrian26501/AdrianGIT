@@ -1,9 +1,5 @@
-.header {
-    display:flex;
-    justify-content: space-evenly;
-    background-color: blue;
-    align-items: center;
-    padding: 12px 20px;
+.head {
+    background: linear-gradient(-45deg, #23a6d5, #23d5ab );
 }
 
 .container{
