@@ -1,9 +1,9 @@
+label {
+     font-family: :'Franklin Gothic Medium' sans-serif 
+     color:  #a366ff
+}
 input[type=text], select textarea {
     width: 100%;
     padding: 12px;
     border: 1px; #a366ff
 }
-.container {
-    background-image: linear-gradient(to bottom, blue , cyan);
-  }
-  
