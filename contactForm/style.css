@@ -10,21 +10,10 @@
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    * {
-        box-sizing: border-box;
-      }
-      
-      /* Style inputs */
-      input[type=text], select, textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical;
-        background-image: linear-gradient(to bottom blue cyan);
-      }
-      
+    background-image: linear-gradient(to bottom blue cyan)
+    };
+
+    
   
 
   
