@@ -10,7 +10,7 @@ label {
     margin: 0 auto;
     padding: 0 0 10px 10px;
     max-width: 330px;
-    background-color: #ac9dd1;
+    background-image: linear-gradient(to bottom blue cyan);
   }
   .title {
     display: inline-block;
