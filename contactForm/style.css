@@ -1,13 +1,23 @@
 body {
-    background: linear-gradient(-45deg, #23a6d5, #23d5ab );
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    background: linear-gradient(-45deg, #23a6d5, #23d5ab );
-    background-size: cover;
-}
+    padding: 50px;
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  .grid {
+    border: 5px solid rgb(111,41,97);
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(5, 50px);
+    inline-size: 500px;
+  }
+  
+  .container {
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+  }
+  
+  .grid > * {
+    background-color: rgba(111,41,97,.4);
+    border-radius: 5px;
+    padding: 10px;
+  }
