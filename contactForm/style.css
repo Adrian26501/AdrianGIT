@@ -1,6 +1,7 @@
 label {
      font-family: :'Franklin Gothic Medium' sans-serif 
      color:  #a366ff
+     margin: 0
 }
 input[type=text], select textarea {
     width: 100%;
