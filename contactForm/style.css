@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    background-image: linear-gradient(to bottom blue cyan green);
   }
   
   
@@ -21,6 +20,4 @@
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
+  
