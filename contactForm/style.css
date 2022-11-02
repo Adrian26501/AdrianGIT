@@ -1,21 +1,22 @@
-textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #eeeeee;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    resize: vertical;
+label {
+    font-family: 'Open Sans' sans-serif;
+    color: #fff;
+    margin: 0;
   }
-  input[type=submit] {
-    background-color: #4cd9c6;
-    color: #ffffff;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
+  .container {
+    display: block;
+    border: 8px solid #414178;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0 0 10px 10px;
+    max-width: 330px;
+    background-color: #ac9dd1;
   }
-  input[type=submit]:hover {
-    background-color: #6fe8d7;
+  .title {
+    display: inline-block;
+  }
+  .title h2 {
+    padding: 0 10px 0 0px;
+    margin: 5px 0;
+    color: #FBFBFB;
   }
