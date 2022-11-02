@@ -1,8 +1,16 @@
-.container{
+.header {
     display:flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+    align-items: center;
+    padding: 12px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 300px;
     background: linear-gradient(-45deg, #23a6d5, #23d5ab );
+    background-size: cover;
 }
