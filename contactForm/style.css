@@ -3,8 +3,9 @@
     justify-content: space-evenly;
     background-color: blue;
     align-items: center;
-    padding: 12px;
+    padding: 12px 20px;
 }
+
 .container{
     display: flex;
     flex-direction: column;
