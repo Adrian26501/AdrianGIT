@@ -4,7 +4,7 @@ const play = () => {
 }
 
 var rps = ["Rock", "Paper", "Scissors"];
-var random = 
+var random = Math.floor(Math.random() * 3)
 
 function random (user, computer) {
     if (user===computer){
@@ -12,5 +12,5 @@ function random (user, computer) {
     } else if (user==="Rock"&&computer==="Scissors"||user==="Paper"&&computer==="Rock"||user==="Scissors"&&computer==="Paper")) {
         console.log ("YOU WIN!");
     } else {
-        console.log ("You lost :c")
+        console.log ("You lost :c") }
 };
