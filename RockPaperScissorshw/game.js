@@ -1,3 +1,12 @@
+const userText = document.querySelector("#userText");
+const computerText = document.querySelector("#computerText");
+const outcomeText = document.querySelector("#outcomeText");
+const selectionBtn = document.querySelectorAll(".selectionBtn");
+
+let user;
+let computer;
+let outcome;
+
 const play = () => {
     let userScore = 0
     let computerScore = 0
