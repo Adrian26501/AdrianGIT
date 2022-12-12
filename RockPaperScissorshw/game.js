@@ -7,6 +7,13 @@ let user;
 let computer;
 let outcome;
 
+choiceBtns.forEach(button => button.addEventListener("click", () => {
+
+user = button.textContent;
+computerTurn()
+}));
+    
+
 const play = () => {
     let userScore = 0
     let computerScore = 0
